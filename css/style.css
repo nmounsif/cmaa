@@ -1565,3 +1565,14 @@ a.site-logo img {
 	    width: 0px;
     border: none;
 }
+.owl-carousel .owl-item img {
+    max-height: 700px;
+    object-fit: contain;
+}
+.gallery-single-slider .owl-nav {
+    right: -50px;
+}
+.blog-post .blog-thumb {
+    height: 600px;
+    margin-bottom: 25px;
+}
