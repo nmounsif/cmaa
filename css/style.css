@@ -1582,3 +1582,12 @@ a.site-logo img {
     width: 800px;
     margin: auto;
 }
+/** Mobile Phone **/
+@media (max-width: 767px){
+	.spacial-controls {
+		position: inherit;
+	}
+	.main-warp {
+    padding-left: 20px!important;
+	}
+}
