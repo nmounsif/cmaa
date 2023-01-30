@@ -1582,6 +1582,12 @@ a.site-logo img {
     width: 800px;
     margin: auto;
 }
+.blog-post .post-date h3 {
+    font-size: 35px;
+}
+a.site-btn.register {
+    margin-top: 20px!important;
+}
 /** Mobile Phone **/
 @media only screen and (max-width: 767px){
 	.spacial-controls {
