@@ -1716,3 +1716,55 @@ h4.sponsor-section {
 .sponsorshiptiers {
     text-align: center;
 }
+.site-btn-sponsor {
+	display: inline-block;
+	border: 2px solid #bd000b5e;
+	font-size: 16px;
+	font-weight: 700;
+	min-width: 189px;
+	padding: 15px 28px;
+	letter-spacing: 0.08em;
+	border-radius: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #a60000;
+	line-height: normal;
+	cursor: pointer;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+
+.site-btn-sponsor:hover {
+	color: #323232;
+}
+
+.col-xl-7.p-0.agenda {
+    padding-left: 30px!important;
+}
+
+.col-xl-7.p-0.agenda li{
+    margin-left: 20px
+}
+
+.col-xl-12.p-0.agenda {
+    padding-left: 20px!important;
+		margin-bottom: 20px;
+}
+.blog-page.blog-page-sponsor{
+	padding-top: 20px;
+}
+.col-xl-12.p-0.agenda {
+    font-size: 12px;
+}
+.sponsor-info{
+	padding-top: 0px
+}
+.gallery-single-text.sponsor-info ul li span {
+    font-size: 16px;
+    width: auto;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.sponsor.marketing img {
+    max-height: 150px;
+}
