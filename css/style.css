@@ -27,7 +27,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #323232;
+	color: #424242;
 	font-weight: 400;
 }
 
@@ -57,7 +57,7 @@ h6 {
 
 p {
 	font-size: 16;
-	color: #898d90;
+	color: #000000;
 	line-height: 1.8;
 }
 
@@ -128,7 +128,7 @@ ol {
 
 .site-btn {
 	display: inline-block;
-	border: 2px solid #000000;
+	border: 2px solid #bd000b5e;
 	font-size: 16px;
 	font-weight: 700;
 	min-width: 189px;
@@ -138,7 +138,7 @@ ol {
 	border-radius: 0;
 	text-align: center;
 	text-transform: uppercase;
-	color: #323232;
+	color: #a60000;
 	line-height: normal;
 	cursor: pointer;
 	background-color: transparent;
@@ -230,7 +230,8 @@ ol {
 
 .main-warp {
 	height: 100%;
-	padding-left: 455px;
+	padding-left: 303px;
+	background: #b4030d;
 }
 
 .spacial-controls {
@@ -346,11 +347,11 @@ ol {
 
 .header-section {
 	position: fixed;
-	width: 455px;
+	width: 300px;
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #fff;
+	background: #f0e3b2;
 	z-index: 9999;
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
@@ -397,7 +398,7 @@ ol {
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #323232;
+	color: #424242;
 	padding-left: 63px;
 	margin-bottom: 24px;
 	position: relative;
@@ -418,7 +419,7 @@ ol {
 .social-links a {
 	font-size: 14px;
 	display: block;
-	color: #c6d7d8;
+	color: #000;
 	margin-bottom: 29px;
 	-webkit-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
@@ -426,6 +427,17 @@ ol {
 	-webkit-transform-origin: top left;
 	-ms-transform-origin: top left;
 	transform-origin: top left;
+}
+
+.social-links-sponsors a {
+	font-size: 16px;
+	display: contents;
+	color: #007bff;
+	margin: 32px;
+}
+
+.social-links-sponsors {
+    display: contents;
 }
 
 .social-text {
@@ -525,7 +537,7 @@ ol {
 
 #snh-1 span {
 	font-size: 30px;
-	color: #323232;
+	color: #000000;
 }
 
 .slider-item {
@@ -534,9 +546,9 @@ ol {
 }
 
 .slider-item .si-text-box {
-	width: 395px;
-	padding: 60px 50px 60px 50px;
-	background: #fff;
+	width: 340px;
+	padding: 40px;
+	background: #f0e3b2;
 }
 
 .slider-item .si-text-box span {
@@ -1275,7 +1287,7 @@ ol {
 		width: 300px;
 	}
 	.main-warp {
-		padding-left: 300px;
+		padding-left: 303px;
 	}
 	.about-image {
 		margin-bottom: 100px;
@@ -1556,11 +1568,11 @@ a.site-logo img {
     width: 60%;
 }
 .header-section {
-    width: 350px;
+    width: 300px;
 }
 .main-warp {
     height: 100%;
-    padding-left: 350px;
+    padding-left: 303px;
 }
 .next-slide-show.set-bg.first {
 	    width: 0px;
@@ -1655,7 +1667,7 @@ a.site-btn.register {
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
-  background-color: #e5e5e5;
+  background-color: #bd000b5e;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
@@ -1664,4 +1676,95 @@ a.site-btn.register {
 }
 .owl-nav {
     display: none!important;
+}
+
+.page-section.gallery-single-page-sponsor {
+    margin-top: 45px;
+}
+
+.title-sponsors-section {
+    padding: 25px 25px;
+    background: #f0e3b2;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4.sponsor-section {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.gallery-single-warp.sponsor {
+    margin-bottom: 20px;
+}
+
+.sponsor img {
+    max-width: 400px;
+}
+
+.sponsor .gallery-single-text {
+    padding: 0 15px;
+}
+
+.sponsor .gallery-single-text ul {
+    margin-bottom: 15px;
+}
+.gallery-single-warp.sponsorshiptiers {
+    padding-bottom: 15px;
+}
+
+.sponsorshiptiers {
+    text-align: center;
+}
+.site-btn-sponsor {
+	display: inline-block;
+	border: 2px solid #bd000b5e;
+	font-size: 16px;
+	font-weight: 700;
+	min-width: 189px;
+	padding: 15px 28px;
+	letter-spacing: 0.08em;
+	border-radius: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #a60000;
+	line-height: normal;
+	cursor: pointer;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+
+.site-btn-sponsor:hover {
+	color: #323232;
+}
+
+.col-xl-7.p-0.agenda {
+    padding-left: 30px!important;
+}
+
+.col-xl-7.p-0.agenda li{
+    margin-left: 20px
+}
+
+.col-xl-12.p-0.agenda {
+    padding-left: 20px!important;
+		margin-bottom: 20px;
+}
+.blog-page.blog-page-sponsor{
+	padding-top: 20px;
+}
+.col-xl-12.p-0.agenda {
+    font-size: 12px;
+}
+.sponsor-info{
+	padding-top: 0px
+}
+.gallery-single-text.sponsor-info ul li span {
+    font-size: 16px;
+    width: auto;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.sponsor.marketing img {
+    max-height: 150px;
 }
