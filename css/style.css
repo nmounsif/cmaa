@@ -1768,3 +1768,24 @@ h4.sponsor-section {
 .sponsor.marketing img {
     max-height: 150px;
 }
+/** Mobile Phone **/
+@media only screen and (max-width: 767px){
+	.spacial-controls {
+	    position: sticky;
+	    width: auto;
+	}
+	.sponsor iframe {
+    width: -webkit-fill-available;
+	}
+	.nav-switch-warp {
+    width: 100%;
+    background: #f0e3b2;
+    padding-top: 17px;
+    padding-left: 15px;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	}
+	.site-btn-sponsor {
+	    width: -webkit-fill-available;
+	}
+}
