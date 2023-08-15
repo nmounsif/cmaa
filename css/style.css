@@ -1789,3 +1789,7 @@ h4.sponsor-section {
 	    width: -webkit-fill-available;
 	}
 }
+
+.hotel-button-group {
+    margin-top: 35px;
+}
