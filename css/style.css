@@ -1793,3 +1793,11 @@ h4.sponsor-section {
 .hotel-button-group {
     margin-top: 35px;
 }
+
+@media (max-width: 1830px){
+	.col-xl-7.agenda {
+		flex: auto!important;
+	    width: 100%;
+			max-width: 100%!important;
+	}
+}
