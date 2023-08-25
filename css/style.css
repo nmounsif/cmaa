@@ -542,11 +542,16 @@ ol {
 
 .slider-item {
 	height: 100%;
-	padding-bottom: 77px;
 }
 
 .slider-item .si-text-box {
-	width: 340px;
+	width: 300px;
+	padding: 40px;
+	background: #f0e3b2;
+}
+
+.slider-item .si-text-box.first {
+	width: 400px;
 	padding: 40px;
 	background: #f0e3b2;
 }
@@ -1806,5 +1811,4 @@ h4.sponsor-section {
 .slider-item .si-text-box h2 {
     margin-bottom: 30px;
     font-size: 38px;
-    margin-top: 100px;
 }
