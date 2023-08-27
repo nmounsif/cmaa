@@ -575,15 +575,12 @@ ol {
 
 .next-slide-show {
 	position: absolute;
-	width: 191px;
-	height: 191px;
+	width: 0px;
+	height: 0px;
 	right: 97px;
-	top: calc(50% - 111px);
+	top: calc(50%);
 	background-color: #fff;
 	z-index: 111;
-	border: 4px solid #fff;
-	-webkit-box-shadow: 0 35px 35px rgba(0, 0, 0, 0.64);
-	box-shadow: 0 35px 35px rgba(0, 0, 0, 0.64);
 }
 
 .next-slide-show .ns-btn {
@@ -1795,9 +1792,9 @@ h4.sponsor-section {
 	}
 }
 
-.hotel-button-group {
+/* .hotel-button-group {
     margin-top: 35px;
-}
+} */
 
 @media (max-width: 1830px){
 	.col-xl-7.agenda {
@@ -1811,4 +1808,48 @@ h4.sponsor-section {
 .slider-item .si-text-box h2 {
     margin-bottom: 30px;
     font-size: 38px;
+}
+.slider-item.d-flex.align-items-center.set-bg {
+    background-position-y: bottom;
+}
+.sponsor img {
+    max-width: 100%;
+}
+.col-xl-7.p-0.hiltondescr {
+    padding-left: 30px!important;
+}
+.blog-post .blog-thumb {
+    height: 400px;
+    background-position-y: -80px;
+    margin-bottom: 25px;
+}
+/** IPAD FIXES **/
+@media (max-width: 1200px){
+	.main-warp {
+    height: 100%;
+    padding-left: 253px!important;
+}
+.header-section {
+    width: 250px!important;
+}
+.slider-item .si-text-box h2 {
+    margin-bottom: 0px!important;
+    font-size: 20px;
+    font-weight: 800;
+		    padding-bottom: 15px;
+}
+.slider-item .si-text-box {
+    width: 280px!important;
+    padding: 20px;
+    background: #f0e3b2;
+		    margin-top: 20px;
+}
+.slider-item.d-flex.align-items-center.set-bg {
+    align-items: start!important;
+}
+.si-text-box a.site-btn {
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding-left: 10px;
+}
 }
