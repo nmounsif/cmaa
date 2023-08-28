@@ -1819,8 +1819,8 @@ h4.sponsor-section {
     padding-left: 30px!important;
 }
 .blog-post .blog-thumb {
-    height: 400px;
-    background-position-y: -80px;
+    height: 500px;
+    background-position-y: -100px;
     margin-bottom: 25px;
 }
 /** IPAD FIXES **/
@@ -1852,4 +1852,19 @@ h4.sponsor-section {
     font-size: 14px;
     padding-left: 10px;
 }
+}
+
+.contact-page {
+    background: #f7efd1;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.contact-warp .blog-post .row {
+    padding-top: 30px!important;
+}
+.contact-warp .blog-post h3 {
+    padding-bottom: 15px!important;
+}
+.contact-warp .blog-post p {
+    padding-bottom: 10px!important;
 }
