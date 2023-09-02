@@ -1824,7 +1824,7 @@ h4.sponsor-section {
     margin-bottom: 25px;
 }
 /** IPAD FIXES **/
-@media (max-width: 1200px){
+@media (max-width: 1200px, min-width:800px){
 	.main-warp {
     height: 100%;
     padding-left: 253px!important;
