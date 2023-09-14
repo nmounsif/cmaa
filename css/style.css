@@ -1861,6 +1861,7 @@ h4.sponsor-section {
 }
 .contact-warp .blog-post .row {
     padding-top: 30px!important;
+		    display: block;
 }
 .contact-warp .blog-post h3 {
     padding-bottom: 15px!important;
