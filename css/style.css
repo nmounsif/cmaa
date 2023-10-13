@@ -133,7 +133,6 @@ ol {
 	font-weight: 700;
 	min-width: 189px;
 	padding: 15px 28px;
-	padding-right: 62px;
 	letter-spacing: 0.08em;
 	border-radius: 0;
 	text-align: center;
@@ -142,9 +141,7 @@ ol {
 	line-height: normal;
 	cursor: pointer;
 	background-color: transparent;
-	background-image: url("../img/angle-rignt.png");
-	background-repeat: no-repeat;
-	background-position: right 23px top 22px;
+
 	margin-bottom: 20px;
 }
 
@@ -1868,4 +1865,7 @@ h4.sponsor-section {
 }
 .contact-warp .blog-post p {
     padding-bottom: 10px!important;
+}
+.banquet-description li {
+    padding-left: 60px;
 }
