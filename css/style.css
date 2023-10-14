@@ -152,13 +152,11 @@ ol {
 .site-btn.sb-light {
 	color: #fff;
 	border-color: #fff;
-	background-image: url("../img/angle-rignt-w.png");
 }
 
 .site-btn.sb-solid-dark {
 	color: #fff;
 	background-color: #323232;
-	background-image: url("../img/angle-rignt-w.png");
 }
 
 /* Preloder */
