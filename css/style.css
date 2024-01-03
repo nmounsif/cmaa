@@ -1818,6 +1818,13 @@ h4.sponsor-section {
     background-position-y: -100px;
     margin-bottom: 25px;
 }
+/** DESKTOP FIXES **/
+@media (min-width:1200px){
+	.blog-post .blog-thumb {
+    height: 700px;
+    margin-bottom: 25px;
+`}
+}
 /** IPAD FIXES **/
 @media (max-width: 1200px, min-width:800px){
 	.main-warp {
